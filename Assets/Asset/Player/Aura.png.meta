@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 8c5ba323caf4849409a72a40c690b769
+guid: 60c45c142991e744d839a298f5d1c1cd
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -48,7 +48,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 30
+  spritePixelsToUnits: 100
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -123,13 +123,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Slash_0
+      name: Aura_0
       rect:
         serializedVersion: 2
-        x: 371
-        y: 659
-        width: 17
-        height: 6
+        x: 100
+        y: 28
+        width: 65
+        height: 87
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -137,20 +137,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: eed0e01c1e99b2145b28121c21a9a31b
-      internalID: 1193337012
+      spriteID: a3f4fdd7bb624e94cac21bdadc3e4d49
+      internalID: 1458885512
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Slash_1
+      name: Aura_1
       rect:
         serializedVersion: 2
-        x: 435
-        y: 658
-        width: 28
-        height: 7
+        x: 251
+        y: 29
+        width: 66
+        height: 87
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -158,20 +158,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 071425eb60d1d354eb0ff7c9197f14fb
-      internalID: 768266257
+      spriteID: 43197059dc5285840878784c8e805086
+      internalID: -1060363207
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Slash_2
+      name: Aura_2
       rect:
         serializedVersion: 2
-        x: 507
-        y: 649
-        width: 27
-        height: 15
+        x: 383
+        y: 35
+        width: 104
+        height: 87
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -179,20 +179,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 532385042d2ec3847894abd43040e470
-      internalID: -435958397
+      spriteID: 293846409440e0046ba3c893b85f586b
+      internalID: -1651907786
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Slash_3
+      name: Aura_3
       rect:
         serializedVersion: 2
-        x: 575
-        y: 628
-        width: 26
-        height: 36
+        x: 555
+        y: 37
+        width: 140
+        height: 118
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -200,20 +200,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 651ec1f8c8bc52743a9ddcf49a6542da
-      internalID: 816951900
+      spriteID: 107c8408570cee94d87309ab87ff303c
+      internalID: -2010644247
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Slash_4
+      name: Aura_4
       rect:
         serializedVersion: 2
-        x: 645
-        y: 616
-        width: 20
-        height: 47
+        x: 747
+        y: 39
+        width: 101
+        height: 154
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -221,20 +221,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: bdd6e43c68cb759438bf24912d616f5c
-      internalID: -1855958180
+      spriteID: 728e46843be7a844e86eb13081dc9a4e
+      internalID: -219022730
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Slash_5
+      name: Aura_5
       rect:
         serializedVersion: 2
-        x: 698
-        y: 615
-        width: 31
-        height: 46
+        x: 932
+        y: 34
+        width: 101
+        height: 153
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -242,71 +242,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: fafd2d3c71ee2224eaa48d7ed24515c1
-      internalID: -52664337
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Slash_6
-      rect:
-        serializedVersion: 2
-        x: 760
-        y: 615
-        width: 33
-        height: 36
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: c78dbdb63a39e124cb3dbc9810e36512
-      internalID: 821838866
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Slash_7
-      rect:
-        serializedVersion: 2
-        x: 822
-        y: 615
-        width: 35
-        height: 29
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 6dbffab1555c9894598960503243dc4d
-      internalID: 195769969
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Slash_8
-      rect:
-        serializedVersion: 2
-        x: 884
-        y: 615
-        width: 37
-        height: 24
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 5e41ada4ab412474784e1f12ae21d296
-      internalID: 1044711186
+      spriteID: accebbdf10fc8a14f97b2b744b0a30d1
+      internalID: 699216044
       vertices: []
       indices: 
       edges: []
@@ -322,15 +259,12 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Slash_0: 1193337012
-      Slash_1: 768266257
-      Slash_2: -435958397
-      Slash_3: 816951900
-      Slash_4: -1855958180
-      Slash_5: -52664337
-      Slash_6: 821838866
-      Slash_7: 195769969
-      Slash_8: 1044711186
+      Aura_0: 1458885512
+      Aura_1: -1060363207
+      Aura_2: -1651907786
+      Aura_3: -2010644247
+      Aura_4: -219022730
+      Aura_5: 699216044
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

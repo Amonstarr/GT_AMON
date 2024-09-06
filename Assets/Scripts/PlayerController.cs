@@ -4,6 +4,8 @@ using UnityEngine;
 
 public class PlayerController : Singleton<PlayerController>
 {
+    public bool FacingLeft { get { return facingLeft; } set { facingLeft = value; } }
+
     [SerializeField] private float moveSpeed = 1f;
 
     private PlayerControls playerControls;
@@ -12,6 +14,7 @@ public class PlayerController : Singleton<PlayerController>
     private Animator myAnimator;
     private SpriteRenderer mySpriteRender;
 
+    private bool facingLeft = false;
 
     protected override void Awake() {
         base.Awake();
@@ -51,8 +54,10 @@ public class PlayerController : Singleton<PlayerController>
 
         if (mousePos.x < playerScreenPoint.x) {
             mySpriteRender.flipX = true;
+            FacingLeft = true;
         } else {
             mySpriteRender.flipX = false;
+            FacingLeft = false;
         }
     }
 }
