@@ -11,8 +11,9 @@ public class Sword : MonoBehaviour
     private Animator myAnimator;
     private PlayerController playerController;
     private ActiveWeapon activeWeapon;
-
     private GameObject slashAnim;
+    public AudioClip slashSound;
+    private AudioSource audioSource;
 
     private void Awake() {
         playerController = GetComponentInParent<PlayerController>();
@@ -27,6 +28,7 @@ public class Sword : MonoBehaviour
 
     void Start()
     {
+        audioSource = gameObject.AddComponent<AudioSource>();
         playerControls.Combat.Attack.started += _ => Attack();
     }
 
@@ -39,6 +41,9 @@ public class Sword : MonoBehaviour
 
         slashAnim = Instantiate(slashAnimPrefab, slashAnimSpawnPoint.position, Quaternion.identity);
         slashAnim.transform.parent = this.transform.parent;
+
+        audioSource.clip = slashSound;
+        audioSource.Play();
     }
 
     public void SwingUpFlipAnim() {
